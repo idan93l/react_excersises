@@ -8,7 +8,7 @@ if (module.hot) {
 
 const App = () => {
   return (
-    HelloWorld()
+    <HelloWorld />
   );
 };
 
