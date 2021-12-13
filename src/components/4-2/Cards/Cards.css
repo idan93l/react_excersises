@@ -8,13 +8,18 @@
 
 .card {
   height: 57vh;
-  width: 23vw;
-  border: 1px solid black;
   justify-content: space-between;
 }
 
 .card img {
   height: 35vh;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
 }
 
 .links {
@@ -26,4 +31,5 @@
 
 a {
   font-size: 18px;
+  color: coral;
 }
