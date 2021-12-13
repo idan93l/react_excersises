@@ -7,8 +7,16 @@ import Button from "./components/4-1/button/Button.jsx";
 const App = () => {
   return (
     <div>
-    <Button bold="boldButton" content="important" />
-    <Button content="Not Important" />
+    {/* 2-2 */}
+    {/* <HelloWorld /> */}
+    {/* 3-1 */}
+    {/* <Box1 /> */}
+    {/* 3-2 */}
+    {/* <Quiz /> */}
+    {/* 4-1 */}
+    {/* <Button bold="boldButton" content="important" />
+    <Button content="Not Important" /> */}
+    
     </div>
   );
 };
