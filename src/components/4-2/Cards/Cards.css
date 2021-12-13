@@ -1,0 +1,29 @@
+.flex {
+  width: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  height: 57vh;
+  width: 23vw;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+.card img {
+  height: 35vh;
+}
+
+.links {
+  width: 8vw;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+a {
+  font-size: 18px;
+}
