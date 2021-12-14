@@ -8,6 +8,7 @@ import Button from "./components/4-1/button/Button.jsx";
 // import Card from "./components/6-1/Cards/Cards.jsx";
 import Increment from "./components/7-1/increment.jsx";
 import Toggle from "./components/7-2/Toggle.jsx";
+import LCM from "./components/8-1/LCM.jsx";
 
 // const App = () => {
 //   return (
@@ -95,9 +96,17 @@ import Toggle from "./components/7-2/Toggle.jsx";
   // }
 
 //  ----------7-2------------------
+// const App = () => {
+//   return (
+//     <Toggle />
+//   );
+// }
+// export default App;
+
+// --------------8-1-----------------
 const App = () => {
   return (
-    <Toggle />
+    <LCM />
   );
 }
-export default App;
+export default App
