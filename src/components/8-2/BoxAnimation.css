@@ -1,0 +1,28 @@
+#box11 {
+  margin-bottom: 10px;
+  background-color: lightcoral;
+  transform: translateX(-100%);
+}
+
+.in {
+  animation: letsGo 1s forwards ease-in;
+}
+
+@keyframes letsGo {
+  to {
+    transform: translateX(0);
+  }
+}
+
+.out {
+  animation: bye 1s forwards ease-out;
+}
+
+@keyframes bye {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

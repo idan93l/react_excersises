@@ -1,4 +1,4 @@
-import "./App.css"
+import "./App.css";
 import faker, { fake } from "faker";
 import HelloWorld from "./components/2-2/basics_of_jsx";
 import Box1 from "./components/3-1/Box1";
@@ -9,6 +9,7 @@ import Button from "./components/4-1/button/Button.jsx";
 import Increment from "./components/7-1/increment.jsx";
 import Toggle from "./components/7-2/Toggle.jsx";
 import LCM from "./components/8-1/LCM.jsx";
+import BoxAnimation from "./components/8-2/BoxAnimation";
 
 // const App = () => {
 //   return (
@@ -89,11 +90,11 @@ import LCM from "./components/8-1/LCM.jsx";
 // }
 
 // -----------7-1------------------
-  // const App = () => {
-  //   return (
-  //     <Increment />
-  //   );
-  // }
+// const App = () => {
+//   return (
+//     <Increment />
+//   );
+// }
 
 //  ----------7-2------------------
 // const App = () => {
@@ -101,12 +102,48 @@ import LCM from "./components/8-1/LCM.jsx";
 //     <Toggle />
 //   );
 // }
-// export default App;
 
 // --------------8-1-----------------
+// const App = () => {
+//   return (
+//     <LCM />
+//   );
+// }
+
+// --------------8-2-----------------
 const App = () => {
+  const boxArray = [
+    {
+      id: 0,
+      size: "200px",
+    },
+    {
+      id: 1,
+      size: "300px",
+    },
+    {
+      id: 2,
+      size: "400px",
+    },
+  ];
   return (
-    <LCM />
+    <div>
+      {boxArray.map((box) => {
+        return <BoxAnimation key={box.id} size={box.size} />;
+      })}
+    </div>
   );
-}
-export default App
+
+  // return (
+  //   <div>
+  //     {/* <BoxAnimation /> */}
+  //   <BoxAnimation size="200px" />
+  //   <BoxAnimation size="300px" />
+  //   <BoxAnimation size="400px" />
+  //   </div>
+  // );
+};
+
+// -------------------8-3-------------------
+
+export default App;
