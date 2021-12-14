@@ -1,0 +1,40 @@
+.container {
+  width: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.card {
+  height: 57vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card img {
+  height: 35vh;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+
+.links {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+a {
+  font-size: 18px;
+  color: coral;
+}
