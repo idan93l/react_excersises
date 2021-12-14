@@ -1,0 +1,14 @@
+.container {
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  height: 60vh;
+  width: 30vw;
+  background-color: yellow;
+  align-self: center;
+}
