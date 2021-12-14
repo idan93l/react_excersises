@@ -29,7 +29,9 @@ class BoxChange extends React.Component{
 
     render = () => {
       return (
-        <div style={{backgroundColor: this.state.colors, borderRadius: this.state.shape}} className="BoxChange"></div>
+        <div className="BoxChange">
+        <div style={{backgroundColor: this.state.colors, borderRadius: this.state.shape}} className="sizing"></div>
+        </div>
       )
     }
 }
