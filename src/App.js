@@ -10,6 +10,7 @@ import Increment from "./components/7-1/increment.jsx";
 import Toggle from "./components/7-2/Toggle.jsx";
 import LCM from "./components/8-1/LCM.jsx";
 import BoxAnimation from "./components/8-2/BoxAnimation";
+import BoxChange from "./components/8-3/BoxChange.jsx";
 
 // const App = () => {
 //   return (
@@ -111,28 +112,28 @@ import BoxAnimation from "./components/8-2/BoxAnimation";
 // }
 
 // --------------8-2-----------------
-const App = () => {
-  const boxArray = [
-    {
-      id: 0,
-      size: "200px",
-    },
-    {
-      id: 1,
-      size: "300px",
-    },
-    {
-      id: 2,
-      size: "400px",
-    },
-  ];
-  return (
-    <div>
-      {boxArray.map((box) => {
-        return <BoxAnimation key={box.id} size={box.size} />;
-      })}
-    </div>
-  );
+// const App = () => {
+//   const boxArray = [
+//     {
+//       id: 0,
+//       size: "200px",
+//     },
+//     {
+//       id: 1,
+//       size: "300px",
+//     },
+//     {
+//       id: 2,
+//       size: "400px",
+//     },
+//   ];
+//   return (
+//     <div>
+//       {boxArray.map((box) => {
+//         return <BoxAnimation key={box.id} size={box.size} />;
+//       })}
+//     </div>
+//   );
 
   // return (
   //   <div>
@@ -142,8 +143,14 @@ const App = () => {
   //   <BoxAnimation size="400px" />
   //   </div>
   // );
-};
+// };
 
 // -------------------8-3-------------------
+
+const App = () => {
+  return (
+    <BoxChange />
+  );
+}
 
 export default App;
