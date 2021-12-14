@@ -4,23 +4,24 @@ import HelloWorld from "./components/2-2/basics_of_jsx";
 import Box1 from "./components/3-1/Box1";
 import Quiz from "./components/3-2/Quiz";
 import Button from "./components/4-1/button/Button.jsx";
+import Increment from "./components/7-1/increment.jsx";
 // import Card from "./components/4-2/Cards/Cards";
-import Card from "./components/6-1/Cards/Cards.jsx";
+// import Card from "./components/6-1/Cards/Cards.jsx";
 
 // const App = () => {
 //   return (
 //     <div>
 //     {/* <div className="size flexy"> */}
-//       {/* 2-2 */}
+//       {/* --------2-2------------- */}
 //       {/* <HelloWorld /> */}
-//       {/* 3-1 */}
+//       {/* ----------3-1------------ */}
 //       {/* <Box1 /> */}
-//       {/* 3-2 */}
+//       {/* ----------3-2------------- */}
 //       {/* <Quiz /> */}
-//       {/* 4-1 */}
+//       {/* -------------4-1------------ */}
 //       {/* <Button bold="boldButton" content="important" />
 //     <Button content="Not Important" /> */}
-//     {/* 4-2 */}
+//     {/* ----------4-2---------------- */}
 //       {/* <Card
 //         picture='https://picsum.photos/435/300'
 //         randomH1={faker.lorem.word()}
@@ -42,47 +43,54 @@ import Card from "./components/6-1/Cards/Cards.jsx";
 //         randomWord1={faker.lorem.word()}
 //         randomWord2={faker.lorem.word()}
 //       /> */}
-//       {/* 6-1 */}
 //     </div>
 //   );
 // };
 
-function App() {
-  const data = [
-    {
-      id: 0,
-      url: "https://picsum.photos/435/300",
-      title: "texty",
-      description: "hey"
-    },
-    {
-      id: 1,
-      url: "https://picsum.photos/435/301",
-      title: "lawd",
-      description: "you"
-    },
-    {
-      id: 2,
-      url: "https://picsum.photos/435/302",
-      title: "yes",
-      description: "there"
-    }
-  ];
+// -----------------6-1-----------------------
+// function App() {
+//   const data = [
+//     {
+//       id: 0,
+//       url: "https://picsum.photos/435/300",
+//       title: "texty",
+//       description: "hey"
+//     },
+//     {
+//       id: 1,
+//       url: "https://picsum.photos/435/301",
+//       title: "lawd",
+//       description: "you"
+//     },
+//     {
+//       id: 2,
+//       url: "https://picsum.photos/435/302",
+//       title: "yes",
+//       description: "there"
+//     }
+//   ];
 
-  return (
-    <div className="size flexy">
-      {data.map((card) => {
-        return (
-          <Card
-            key={card.id}
-            url={card.url}
-            title={card.title}
-            description={card.description}
-          />
-        );
-      })}
-    </div>
-  );
-}
+//   return (
+//     <div className="size flexy">
+//       {data.map((card) => {
+//         return (
+//           <Card
+//             key={card.id}
+//             url={card.url}
+//             title={card.title}
+//             description={card.description}
+//           />
+//         );
+//       })}
+//     </div>
+//   );
+// }
+
+// -----------7-1------------------
+  // const App = () => {
+  //   return (
+  //     <Increment />
+  //   );
+  // }
 
 export default App;

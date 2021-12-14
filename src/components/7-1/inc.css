@@ -1,0 +1,36 @@
+.Increment {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+.green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  height: 10vh;
+  background: green;
+}
+.red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  height: 10vh;
+  background: red;
+}
+.black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  height: 10vh;
+  background: black;
+  color: white;
+}
