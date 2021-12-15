@@ -11,6 +11,7 @@ import Toggle from "./components/7-2/Toggle.jsx";
 import LCM from "./components/8-1/LCM.jsx";
 import BoxAnimation from "./components/8-2/BoxAnimation";
 import BoxChange from "./components/8-3/BoxChange.jsx";
+import Spinners from "./components/9-1/Spinners.jsx";
 
 // const App = () => {
 //   return (
@@ -147,9 +148,17 @@ import BoxChange from "./components/8-3/BoxChange.jsx";
 
 // -------------------8-3-------------------
 
+// const App = () => {
+//   return (
+//     <BoxChange />
+//   );
+// }
+
+// ------------------9-1--------------------
+
 const App = () => {
   return (
-    <BoxChange />
+    <Spinners />
   );
 }
 
